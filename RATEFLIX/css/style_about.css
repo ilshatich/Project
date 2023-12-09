@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://wallbox.ru/resize/1920x1080/wallpapers/main/201115/4380d3eabf8f9bdfe49c43c3104ab810.jpg);
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.email_link {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+#main_link {
+    color: rgb(10, 148, 102);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#main_link:hover {
+    background: rgb(139, 139, 139);
+    color: rgb(5, 77, 53);
+}
+
+.main_link {
+    color: rgb(10, 148, 102);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    cursor: pointer;
+}
+
+.main_link:hover {
+    background: rgb(139, 139, 139);
+    color: rgb(5, 77, 53);
+}
+
+.title {
+    color: rgb(10, 148, 102);
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro_title {
+    color: white;
+    float: left;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 9px black;
+}
+
+.intro_title_1 {
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    margin: -60px 0px 0px 175px;
+}
+
+.text {
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0px 0px 0px;
+}
+
+#text_1 {
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0px 0px 0px;
+}
+
+#text_2 {
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 0px 0px 0px;
+}
+
+#block_1 {
+    height: 100px;
+    width: 75%;
+    margin: 80px 240px 0px;
+    padding: 20px 20px;
+}
+
+.stick_element {
+    background: white;
+    float: left;
+    height: 65px;
+    width: 0.3%;
+    margin: 8px 0px 0px 10px;
+}
+
+#header {
+    background: white;
+    text-align: center;
+    height: 30px;
+    width: 11%;
+    border-bottom: 5px solid rgb(10, 148, 102);
+    opacity: 0.83;
+    margin: 10px 10px;
+    padding: 5px 0px;
+}
+
+#header:hover {
+    background: rgb(139, 139, 139);
+    color: rgb(5, 77, 53);
+    border-bottom: 5px solid rgb(5, 77, 53);
+}
+
+#block_2 {
+    float: left;
+    height: 450px;
+    width: 35%;
+    margin: 0px 100px 0px 200px;
+}
+
+.block_input_1 {
+    float: left;
+    height: 45px;
+    width: 90%;
+    margin: 0px 0px 25px 0px;
+    padding: 10px 15px 0px 15px;
+    opacity: 0.83;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#block_input_2 {
+    float: left;
+    height: 50px;
+    width: 90%;
+    margin: 0px 0px 25px 0px;
+    padding: 10px 15px 200px 15px;
+    opacity: 0.83;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#block_input_3 {
+    float: left;
+    height: 50px;
+    width: 50%;
+    color: white;
+    background: rgb(10, 148, 102);
+    border: none;
+    cursor: pointer;
+}
+
+#block_input_3:hover {
+    color: rgb(139, 139, 139);
+    background: rgb(5, 77, 53);
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(10, 148, 102);
+} 
+
+::placeholder {
+    color: rgb(10, 148, 102);;
+}
+
+#block_3 {
+    float: left;
+    height: 450px;
+    width: 40%;
+    margin: 0px 0px;
+}
+
+#block_text_1 {
+    float: left;
+    background: white;
+    text-align: center;
+    height: 140px;
+    width: 35%;
+    border-bottom: 7px solid rgb(10, 148, 102);
+    opacity: 0.83;
+    padding: 20px;
+}
+
+#block_text_2 {
+    float: left;
+    background: white;
+    text-align: center;
+    height: 140px;
+    width: 35%;
+    border-bottom: 7px solid rgb(10, 148, 102);
+    opacity: 0.83;
+    padding: 20px;
+    margin: 0px 0px 0px 110px;
+}
+
+#block_text_3 {
+    float: left;
+    background: white;
+    text-align: center;
+    height: 140px;
+    width: 35%;
+    border-bottom: 7px solid rgb(10, 148, 102);
+    opacity: 0.83;
+    padding: 20px;
+    margin: 55px 0px 0px 0px;
+}
+
+#block_text_4 {
+    float: left;
+    background: white;
+    text-align: center;
+    height: 140px;
+    width: 35%;
+    border-bottom: 7px solid rgb(10, 148, 102);
+    opacity: 0.83;
+    padding: 20px;
+    margin: 55px 0px 0px 110px;
+}
+
+
