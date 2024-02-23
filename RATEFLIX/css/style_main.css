@@ -9,8 +9,8 @@
 body {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
 #java_info {
@@ -23,33 +23,38 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 10px;
-    height: 1900px;
-    width: 90%;
-    
+    height: 2000px;
+    width: 98%;
 }
 
 #block_navigation {
     background: rgb(25, 25, 25);
     margin: 75px 0px;
     height: 686px;
-    width: 110px;
+    width: 5%;
     float: left;
     position: fixed;
     border-radius: 3dvh 3dvh 3dvh 3dvh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #block_navigation_1 {
     height: 80px;
     width: 80px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 1;
 }
 
 #rateflix_icon {
     height: 65px;
-    width: 85px;
+    min-width: 65px;
     margin-top: 8px;
     margin-left: -1px;
 }
@@ -57,10 +62,9 @@ body {
 #block_navigation_2 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 2;
 }
 
 #menu_home_icon {
@@ -73,10 +77,9 @@ body {
 #block_navigation_3 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 3;
 }
 
 #menu_rating_icon {
@@ -89,10 +92,9 @@ body {
 #block_navigation_4 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 4;
 }
 
 #menu_awards_icon {
@@ -105,10 +107,9 @@ body {
 #block_navigation_5 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 5;
 }
 
 #menu_artist_icon {
@@ -121,10 +122,9 @@ body {
 #block_navigation_6 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 6;
 }
 
 #menu_about_icon {
@@ -137,10 +137,9 @@ body {
 #block_navigation_7 {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    float: top;
+    order: 7;
 }
 
 #comments_icon {
@@ -307,13 +306,19 @@ body {
     float: top;
     margin-left: 180px;
     margin-bottom: 50px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: space-between;
 }
 
 #block_4_1 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
+    order: 1;
 }
 
 #block_4_1_1 {
@@ -321,11 +326,11 @@ body {
     height: 24px;
     width: 54px;
     margin: 24px 0px 0px 20px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_1_2 {
@@ -333,19 +338,18 @@ body {
     height: 24px;
     width: 54px;
     margin: 0px 0px 0px 65px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_2 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 2;
 }
 
 #block_4_2_1 {
@@ -353,11 +357,11 @@ body {
     height: 24px;
     width: 54px;
     margin: 24px 0px 0px 20px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_2_2 {
@@ -365,19 +369,18 @@ body {
     height: 24px;
     width: 54px;
     margin: 0px 0px 0px 65px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_3 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 3;
 }
 
 #block_4_3_1 {
@@ -385,11 +388,11 @@ body {
     height: 24px;
     width: 54px;
     margin: 24px 0px 0px 20px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_3_2 {
@@ -397,19 +400,18 @@ body {
     height: 24px;
     width: 54px;
     margin: 0px 0px 0px 65px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_4 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 4;
 }
 
 #block_4_4_1 {
@@ -417,11 +419,11 @@ body {
     height: 24px;
     width: 54px;
     margin: 24px 0px 0px 20px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_4_2 {
@@ -429,20 +431,19 @@ body {
     height: 24px;
     width: 54px;
     margin: 0px 0px 0px 65px;
-    float: left;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 #block_4_hand {
     height: 50px;
     width: 50px;
-    float: left;
     border-radius: 14dvh 14dvh 14dvh 14dvh;
-    margin-left: 10px;
     margin-top: 78px;
+    order: 5;
 }
 
 #block_4_handbutton {
@@ -487,49 +488,46 @@ body {
 #block_6 {
     height: 211px;
     width: 1600px;
-    float: top;
     margin-left: 180px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #block_6_1 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
+    order: 1;
 }
 
 #block_6_2 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 2;
 }
 
 #block_6_3 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 3;
 }
 
 #block_6_4 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 4;
 }
 
 #block_6_hand {
     height: 50px;
     width: 50px;
-    float: left;
     border-radius: 14dvh 14dvh 14dvh 14dvh;
-    margin-left: 10px;
     margin-top: 78px;
+    order: 5;
 }
 
 #block_6_handbutton {
@@ -568,68 +566,63 @@ body {
 #block_8 {
     height: 211px;
     width: 1650px;
-    float: top;
     margin-left: 125px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #number_1 {
-    float: left;
     font-family: 'Ruthie', cursive;
     color: white;
     font-size: 150px;
     margin-top: 15px;
-    margin-right: 50px;
+    order: 1;
 }
 
 #number_2 {
-    float: left;
     font-family: 'Ruthie', cursive;
     color: white;
     font-size: 150px;
     margin-top: 15px;
-    margin-right: 35px;
-    margin-left: 35px;
+    order: 3;
 }
 
 #number_3 {
-    float: left;
     font-family: 'Ruthie', cursive;
     color: white;
     font-size: 150px;
     margin-top: 15px;
-    margin-right: 35px;
-    margin-left: 35px;
+    order: 5;
 }
 
-#block_8_1 {background-color: red;
+#block_8_1 {
+    background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
+    order: 2;
 }
 
-#block_8_2 {background-color: red;
+#block_8_2 {
+    background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 4;
 }
 
 #block_8_3 {
     background-color: red;
     height: 211px;
     width: 375px;
-    float: left;
-    margin-left: 10px;
+    order: 6;
 }
 
 #block_8_hand {
     height: 50px;
     width: 50px;
-    float: left;
     border-radius: 14dvh 14dvh 14dvh 14dvh;
-    margin-left: 10px;
     margin-top: 78px;
+    order: 7;
 }
 
 #block_8_handbutton {
@@ -695,39 +688,43 @@ body {
 
 #block_11 {
     height: 680px;
-    width: 1600px;
-    float: top;
+    width: 1500px;
     margin-left: 180px;
     margin-bottom: 50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #block_review_1 {
     background: rgb(25, 25, 25);
     height: 320px;
     width: 680px;
-    float: left;
-    margin-bottom: 60px;
     border-radius: 6dvh 6dvh 6dvh 6dvh;
+    order: 1;
+    flex-shrink: 2;
 }
 
 #block_review_2 {
     background: rgb(25, 25, 25);
     height: 320px;
     width: 680px;
-    float: left;
-    margin-left: 150px;
-    margin-bottom: 60px;
     border-radius: 6dvh 6dvh 6dvh 6dvh;
+    order: 2;
+    flex-shrink: 2;
 }
 
 #block_review_3 {
     background: rgb(25, 25, 25);
     height: 320px;
     width: 680px;
-    float: left;
-    margin-left: 400px;
-    margin-bottom: 10px;
     border-radius: 6dvh 6dvh 6dvh 6dvh;
+    order: 3;
+    flex-shrink: 2;
 }
 
 .joke {
@@ -736,6 +733,7 @@ body {
 }
 
 .image {
+    position: absolute;
     height: 211px;
     width: 375px;
 }
